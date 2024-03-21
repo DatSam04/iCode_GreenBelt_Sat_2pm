@@ -1,5 +1,5 @@
 # python list lesson 2
-# write a if statement. 
+# write a if statement.
 thing_1 = 5
 thing_2 = 1
 thing_3 =10
@@ -8,12 +8,12 @@ if thing_1 == thing_2 and thing_1 >= thing_3:
     print("thing1_rocks!")
 elif thing_1 >= thing_2 and thing_1 < thing_3:
     print("Thing_1 is okay")
-else : 
+else :
     print("thing_1 is meh.....")
-    
+
 
 # get the NOT,AND OR
-# Explanation of tables: 
+# Explanation of tables:
 # add the not to the if statement
 
 if thing_1 == thing_2 and thing_1 >= thing_3:
@@ -24,7 +24,7 @@ elif not(thing_1 >= thing_2) and thing_1 > thing_3:
     print("All the number are the same !!!")
 elif thing_1 == thing_2 and thing_2 == thing_3:
     print("All numbers are the same!!")
-else : 
+else :
     print("thing_1 is meh.....")
 
 
@@ -33,7 +33,7 @@ else :
 # print list variable
 list_1 = []
 # you can create a list with values too
-list_1 = ["a","b","c","d"] 
+list_1 = ["a","b","c","d"]
 print(list_1[3])
 
 # you can get the size of a list (n) with the len() method
@@ -42,7 +42,7 @@ list_size = len(list_1)
 # here is more a formatted output
 print("The list size is: {}".format(list_size))
 
-# to ad an item in a list use the .append() method 
+# to ad an item in a list use the .append() method
 list_1.append("e")
 print(list_1)
 
@@ -65,7 +65,7 @@ personal_list = ["Javier","Carreno",30, "Bellevue", "Programmer"]
 
 print(personal_list[0])
 
-# friend list create a python program of list 
+# friend list create a python program of list
 # create 4 list each with 5 items
 # list1 = friend first names
 # list 2 = friend 2 first name and last name, city location
@@ -86,11 +86,11 @@ counter = 0
 while counter < 10:
     print("Counter is {}an dless than 10".format(counter))
     counter += 1
-# forloops 
+# forloops
 for i in range(10):
     print("i = {}".format(i))
-    
-    
+
+
 print("we will count to 100!")
 for i in range(100):
     print(i+1)
@@ -101,7 +101,7 @@ for i in range(100):
                 number =  number * k
 
 
-    
+
 # print the days of the of week
 print ("Days of the weeks:")
 for i in range(7):
@@ -117,11 +117,8 @@ for i in range(7):
         print("Friday ")
     elif i == 5:
         print("Satuday")
-    else : 
+    else :
         print ("Sunday")
-
-        
-    
 # forever loops
 
 

@@ -36,7 +36,6 @@ def check_input(input):
         return True
     else:
         # if input match with character in the hidden word, reveal them
-        print(hidden_word.find(input))
         if(hidden_word.find(input) != -1):
             reveal_character(input)
         # check if user reveal all characters

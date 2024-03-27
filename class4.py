@@ -29,7 +29,7 @@ del Directory_1["Name"]
 # Show dictionary
 print(Directory_1)
 
-# looping throug just the key 
+# looping throug just the key
 print("\n\nPrinting just key")
 
 # forloop to each val and key
@@ -49,7 +49,7 @@ for key,val in Directory_1.items():
 # make some question and ask the user to answer that questions
 # how it will be adding 1 to counter and if the counter is cero leave the problem
 
-# Challegue will be create a secury checkPoint program 
+# Challegue will be create a secury checkPoint program
 # todo create a dictory filled with secury fields
 SD ={
     "Name":"carter",
@@ -66,13 +66,13 @@ for key, val in SD.items():
     q_string = key
 # ask user to answer the question of the (key,val)
 user_guess = input(q_string)
-# 5 if user input does not match value add 1 to counter 
+# 5 if user input does not match value add 1 to counter
 if user_guess != val:
     wrong_count += 1
 # 6 if counter is not zero. leave program
 if wrong_count > 0:
     print("Access denied...self destructure in.... 3...2..1")
-else : 
+else :
     print("Acess granted : Welcome Back")
 
 

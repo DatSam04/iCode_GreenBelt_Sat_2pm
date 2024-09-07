@@ -9,15 +9,15 @@ thistuple = ("apple", "banana", "cherry", "orange")
 # Iterating over the tuple
 for item in thistuple:
     print(item)
-    
+
 num_tuple = (1, 2, 3, 4, 5)
 
 # Iterating over the tuple
 for num in num_tuple:
     print(num)
-    
-    
-    
+
+
+
 mixed_tuple = ("apple", 123, True, 3.14)
 
 # Iterating over the tuple

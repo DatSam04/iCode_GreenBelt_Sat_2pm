@@ -1,5 +1,5 @@
-#Uniqueness: Sets in Python are collections of unique elements. 
-# This property makes them particularly useful when 
+#Uniqueness: Sets in Python are collections of unique elements.
+# This property makes them particularly useful when
 # you need to work with a collection of items without any duplicates A set is an unordered collection of unique elements. Sets do not allow duplicate items.
 #Sets are defined using curly braces {}, with elements separated by commas.
 

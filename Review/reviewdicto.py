@@ -29,7 +29,7 @@ print(student)  # Output: {'name': 'Alice', 'age': 20, 'grade': 'A', 'major': 'C
 
 # Updating an existing value
 student['grade'] = 'A+'
-print(student) 
+print(student)
 
 # Using pop()
 major = student.pop('major')
@@ -48,16 +48,16 @@ for value in student.values():
 # Iterating through key-value pairs
 for key, value in student.items():
     print(key, value)
-    
-    
-# Example of common methods to get the students 
+
+
+# Example of common methods to get the students
 student = {'name': 'Alice', 'age': 20, 'grade': 'A'}
 print(student.get('name'))  # Output: Alice
 print(student.get('major', 'N/A'))  # Output: N/A
 
 # Updating with another dictionary
 student.update({'major': 'Computer Science', 'age': 21})
-print(student)  
+print(student)
 
 
 
